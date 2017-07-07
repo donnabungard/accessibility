@@ -218,6 +218,12 @@ h1{ font-size: 3em;}
 <li style="font-weight: 400;"><span style="font-weight: 400;">Provide synchronized captions for all pre-recorded audio</span></li>
 <li style="font-weight: 400;"><span style="font-weight: 400;">Audio descriptions are provided for all video content when the information is not conveyed in the audio</span></li>
 </ul>
+<p><strong>Overall</strong></p>
+<ul>
+<li>
+Audit the site periodically, using software, built-in-reports, or by an accessibility consultant (provide recommendations).
+</li>
+</ul>
 <p>&nbsp;</p>
 <p><strong>Shared Responsibilities</strong></p>
 <p><span style="font-weight: 400;">In most cases we have tried to break down which team is responsible for each aspect but in some cases the teams simply need to share the responsibilities. We recommend detailed worklogs and open communication between the teams to make the following easier for all parties to maneuver. </span></p>
