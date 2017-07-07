@@ -1,0 +1,442 @@
+<html>
+<head>
+<style type="text/css">
+body{
+background-color: #dedede;
+margin: 0;
+padding: 12px;
+font-family: sans-serif;
+}
+section{
+margin: 0 auto;
+padding: 3em;
+width: 90%;
+max-width: 900px;
+background-color: #fff;
+}
+h1{ font-size: 3em;} 
+</style>
+</head>
+<body>
+
+<section>
+<h1>&nbsp;</h1>
+<h1>&nbsp;</h1>
+<h1>&nbsp;</h1>
+<h1>&nbsp;</h1>
+<h1><span style="font-weight: 400;">Accessibility: Rights &amp; Responsibilities </span></h1>
+<p><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">Empowering teams to create the new industry standard</span></p>
+<p style="text-align: right;">V 1.0</p>
+<h2>&nbsp;</h2>
+<h2>&nbsp;</h2>
+<h2><span style="font-weight: 400;">Table of Contents</span></h2>
+<p><a href="#h.ubfjjxn5k03d"><span style="font-weight: 400;">Table of Contents</span></a></p>
+<p><a href="#h.rajsi0nbyan5"><span style="font-weight: 400;">Introduction</span> </a></p>
+<p><a href="#h.srh4fwqzg9np"><span style="font-weight: 400;">Assumptions:</span></a></p>
+<p><a href="#h.dc8snn6rqtez"><span style="font-weight: 400;">A Common Vocabulary</span>5</span></a></p>
+<p><a href="#h.oedgf5of8jaf"><span style="font-weight: 400;">Checklists</span></a></p>
+<p><a href="#h.q5lw5rzumm4"><span style="font-weight: 400;">Technology (Design/Dev) Team&rsquo;s Responsibilities</span></a></p>
+<p><a href="#h.wn662xxtejw3"><span style="font-weight: 400;">Content Team (Authors / Manager's) Checklist</span></a></p>
+<p><a href="#h.9jjal27hou5b"><span style="font-weight: 400;">Implications</span></a></p>
+<p><a href="#h.23qahuczp2pn"><span style="font-weight: 400;">Just What We Do</span></a></p>
+<p><a href="#h.q0csfwilnnmv"><span style="font-weight: 400;">Appendix</span></a></p>
+<p><a href="#h.xxa7pqgyjxz3"><span style="font-weight: 400;">Glossary of Accessibility Terms</span></a></p>
+<p><a href="#h.w2zct7mvnlml"><span style="font-weight: 400;">Caveats</span></a></p>
+<p><a href="#h.6etk15m3uyc1"><span style="font-weight: 400;">Sources</span> </a></p>
+<p><a href="#h.78mshtrc0dee"><span style="font-weight: 400;">Resources</span></a></p>
+<p><a href="#h.i3e13vb9it65"><span style="font-weight: 400;">Testing</span></a></p>
+<p><a href="#h.x8pvtjikxwov"><span style="font-weight: 400;">Statistics</span></a></p>
+<p><a href="#h.dr1k17fb9icy"><span style="font-weight: 400;">Legal Examples</span></a></p>
+<p><a href="#h.gqmqcft9fs9o"><span style="font-weight: 400;">Code Libraries</span></a></p>
+<p><a href="#h.hd8dfeau3v1d"><span style="font-weight: 400;">Drupal Modules</span> </a></p>
+<p><a href="#h.83t4xe6u8qcx"><span style="font-weight: 400;">Credits</span></a></p>
+<p>&nbsp;</p>
+
+<h2><span style="font-weight: 400;">Introduction</span></h2>
+<p><span style="font-weight: 400;">Accessibility means your website can reach more people, be compliant with laws, and overall meet the new industry standards, but for some teams that can seem overwhelming. It does not have to be. Your groups likely already have the resources you need, it&rsquo;s a matter of organization and understanding who is responsible for which parts of the process. In this guide we will breakdown the roles and responsibilities of both the design/development team and that of the content authors/managers. By outlining how each sub-group can make a positive impact in accessibility, and listing out some of the tools to aid them on their way, this once overwhelming initiative can become your standard operating procedure. &nbsp;</span></p>
+
+<p><span style="font-weight: 400;">It&rsquo;s about simplifying, understanding and practice. </span></p>
+<h2><span style="font-weight: 400;">Assumptions:</span></h2>
+<p><span style="font-weight: 400;">The first, and most obvious assumption is that you are, at least in part, responsible for a website and it&rsquo;s overall usability. Yes, accessibility is just another aspect of the user experience (UX) - adapting to assistive technologies much as our industry has adapted to the use of mobile devices over the years. If you&rsquo;re even tangentially responsible for your website you should be familiar with this document. This may help you know what you are responsible for, or simply give you a lead as to whom on your team you should ask your questions. </span></p>
+
+<p><span style="font-weight: 400;">You have decided your site must meet the USA&rsquo;s 508 Compliance standard. In this document we will often go back and forth between the USA&rsquo;s 508 Compliance and the international WCAG A, AA, and AAA ratings. Though in many instances a AA rating is more accessible than the 508 Compliance rating, we will default to a AA rating as the goal with the understanding that this will also ensure the site is 508 Compliant. </span></p>
+
+<p><span style="font-weight: 400;">You have separate parties responsible for design and development than you do for content authoring and management. We understand that in many cases we are grouping many sub-teams into larger groups, but for the purpose of this document&rsquo;s goals, we are defining what is the role of a web development group/department/company/agency as the more technical and the content authoring/management as the more &lsquo;in the thick of it&rsquo; role. In future versions of this document these sub-groups shall be broken down further. </span></p>
+
+<ul>
+<li style="font-weight: 400;"><strong>Design and Development Team: </strong><span style="font-weight: 400;">The technical group responsible for the theme, coding, and overall environment in which the website content resides. This includes your UX Designer, and Front and Back-End developers. </span><span style="font-weight: 400;"><br /><br /></span></li>
+<li style="font-weight: 400;"><strong>The Content Authors/Managers: </strong><span style="font-weight: 400;">The individual(s) responsible for posting content: textual content, imagery, audio and/or video, onto a website. This group will be expected to work from the Drupal Administration and Third-Party Sources (ie YouTube, Wistia etc) to create meaningful content and post it on the website. </span></li>
+</ul>
+<h2><span style="font-weight: 400;">A Common Vocabulary</span></h2>
+<p><span style="font-weight: 400;">A more complete glossary [put in link] has been included at the end of this document but to start we need the meanings of a few common terms to be agreed upon.</span></p>
+
+<p><strong>508 Compliance: </strong><span style="font-weight: 400;">Section 508 of the Rehabilitation Act was enacted to eliminate barriers in information technology, to make available new opportunities for people with disabilities, and to encourage development of technologies that will help achieve these goals. Under Section 508 (29 U.S.C. &sect; 794d), Federal Agencies must give disabled employees and members of the public access to information that is comparable to the access available to others.</span></p>
+
+<p><strong>Accessibility: </strong><span style="font-weight: 400;">The measure of a web page's usability by persons with one or more disabilities.</span><span style="font-weight: 400;"><br /><br /></span></p>
+<p><strong>Assistive Technologies: </strong><span style="font-weight: 400;">Technologies (software or hardware) that increase, maintain, or improve the functional capabilities of individuals with disabilities when interacting with computers or computer-based systems.</span></p>
+
+<p><strong>Disability: </strong><span style="font-weight: 400;">A limitation in an ability</span></p>
+
+<p><strong>WCAG 2.0: </strong><span style="font-weight: 400;">The Web Content Accessibility Guidelines (WCAG) 2.0 is focused on providing an international technical standard for web content. It has 12 guidelines that are organized under four principles: perceivable, operable, understandable, and robust. The guidelines each have a testable success criteria, which are at three levels: A, AA, and AAA.</span></p>
+<h2><span style="font-weight: 400;">Checklists</span></h2>
+<p><span style="font-weight: 400;">To create checklists that would effectively cover each specialization while promoting the industry standard we have relied heavily on our </span><a href="#h.6etk15m3uyc1"><span style="font-weight: 400;">Sources</span></a><span style="font-weight: 400;">; please reference those for additional information. </span></p>
+<h3><span style="font-weight: 400;">Technology (Design/Dev) Team&rsquo;s Responsibilities </span></h3>
+<p><strong>General</strong></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Understand how screen readers work, and the accessibility tree model</span></li>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Your developer and designer team should have a firm understanding of how assistive technology parses the structure of HTML pages, the necessity of tag attributes, and how they can influence the structure.</span></li>
+</ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Semantics</span></li>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The objective of this technique is to mark up the structure of the Web content using the appropriate semantic elements. In other words, the elements are used according to their meaning, not because of the way they appear visually.</span></li>
+</ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Dom Order</span></li>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The objective of this technique is to ensure that the order of content in the source code is the same as the visual presentation of the content. The order of content in the source code can be changed by the author to any number of visual presentations with CSS. Each order may be meaningful in itself but may cause confusion for assistive technology users.</span></li>
+</ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Offscreen Content</span></li>
+</ul>
+<p><strong>Design Focused</strong></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Spacing</span></li>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Allow for adequate spacing between links to allow for easier usage</span></li>
+</ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Color and Contrast</span></li>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Be aware that the site/colors proposed meet the contrast requirements</span></li>
+</ul>
+<li><span style="font-weight: 400;">Links are underlined</span></li>
+</ul>
+
+<p><strong>Markup Specific</strong></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Using Heading Tags</span></li>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The objective of this technique is to use HTML and XHTML heading markup to provide semantic code for headings in the content. Heading markup will allow assistive technologies to present the heading status of text to a user. A screen reader can recognize the code and announce the text as a heading with its level, beep or provide some other auditory indicator. Screen readers are also able to navigate heading markup which can be an effective way for screen reader users to more quickly find the content of interest.</span></li>
+</ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Role Name and Values</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Labels</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Focus</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Tabindex</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Keyboard Actions</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Keyboard Traps</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Text Alternatives/Image Alt</span></li>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Make sure that the fields for this are there and required</span></li>
+</ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Skip Link</span></li>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Provide internal page links to aid navigation inside of the current page, instead of new pages; allowing users to 'skip' over repetitive content.</span></li>
+</ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Landmarks</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Aria Relationships</span></li>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Keep in mind that no Aria is better than bad Aria! </span></li>
+</ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Modal Elements</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">High Contrast Support</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Unobtrusive Javascript </span></li>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">never use inline scripting</span></li>
+</ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">No-JS Alternatives </span></li>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Provide alternatives for users who do not have Javascript enabled and for environments where Javascript is unavailable.</span></li>
+</ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Maximize compatibility with browsers and user tools</span></li>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">User testing to include screen readers and other assistive technologies available</span><span style="font-weight: 400;"><br /><br /></span></li>
+</ul>
+</ul>
+<h3><span style="font-weight: 400;">Content Team (Authors / Manager's) Checklist</span></h3>
+<p><strong>Images</strong></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Use appropriate alt text.</span></li>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Good Example: </span><em><span style="font-weight: 400;">Middle aged man sitting in metal chair in waiting room.</span></em></li>
+<li style="font-weight: 400;"><em><span style="font-weight: 400;">Poor Example:</span></em> <em><span style="font-weight: 400;">Man in chair.</span></em></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Failing Example: </span></li>
+</ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Provide text alternatives for non-text content. &nbsp;</span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">❏ Provide captions and other alternatives for multimedia. &nbsp;</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Image message aligns with content on the page</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Complex images have a separate text area to provide context</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Automatically moving, blinking, or scrolling content that lasts longer than 5 seconds can be paused, stopped, or hidden by the user. Moving, blinking, or scrolling can be used to draw</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">If the same visual presentation can be made using text alone, an image is not used to present that text.</span></li>
+</ul>
+<p><strong>Links</strong></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Use descriptive links. Avoid using web addresses as the link text</span></li>
+</ul>
+<ul>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Good Example:</span><em><span style="font-weight: 400;"> Visit our sister site for more information on getting started.</span></em></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Poor Example: </span><em><span style="font-weight: 400;">Get started today!</span></em></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Failing Example:</span><em><span style="font-weight: 400;"> Click here.</span></em></li>
+</ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Avoid using web addresses as the link text and other uninformative phrases</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Keep your web addresses or URLs short</span></li>
+</ul>
+<p><strong>Tables</strong></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Create a summary of the content within your table</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Identify row and column headers</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Only use tables for tabular data</span></li>
+</ul>
+<p><strong>Text</strong></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Standard alignment of text and use of white space, allowing for higher readability</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Use plain language</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Use San serif fonts</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Be concise with your writing</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Use active voice when writing</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Be weary of using placement words like above or below.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Define all acronyms</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Avoid using ALL CAPS</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Avoid </span><span style="font-weight: 400;">underlining</span><span style="font-weight: 400;"> unless you are linking to content</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Use </span><strong>bold </strong><span style="font-weight: 400;">and </span><em><span style="font-weight: 400;">italics </span></em><span style="font-weight: 400;">sparingly and only for emphasis</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Color is not used as the sole method of conveying content or distinguishing visual elements.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Symbols (***) are needed for emphasis when font color is changed</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Instructions do not rely upon shape, size, or visual location</span></li>
+</ul>
+<p><strong>Semantic Structure</strong></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;"> Headings</span></li>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Create headings and heading levels to show order of importance within your page</span></li>
+</ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Lists</span></li>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">should be used to show a hierarchy in your content structure</span></li>
+</ul>
+</ul>
+<p><strong>Multi Media</strong></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Provide descriptive text transcript</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Audio no or very low background noise so the speech is easily distinguished.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Provide synchronized captions for all pre-recorded audio</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Audio descriptions are provided for all video content when the information is not conveyed in the audio</span></li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Shared Responsibilities</strong></p>
+<p><span style="font-weight: 400;">In most cases we have tried to break down which team is responsible for each aspect but in some cases the teams simply need to share the responsibilities. We recommend detailed worklogs and open communication between the teams to make the following easier for all parties to maneuver. </span></p>
+<p>&nbsp;</p>
+<h2><span style="font-weight: 400;">Implications</span></h2>
+<p><span style="font-weight: 400;">If your website team agrees upon the use of these checklists than you have assigned the rights of ownership and the responsibilities to make sure your team progresses in an accessibility-friendly manner both at the time of development and moving forward. This is not about assigning blame if there is a problem but rather knowing who to ask for help when questions arise. This document was written in the spirit of open-source and the authors promote it&rsquo;s use as a team empowering, problem solving tool that will take this once overwhelming undertaking and breaking it down to it&rsquo;s manageable parts. </span></p>
+<p>&nbsp;</p>
+<h2><span style="font-weight: 400;">Just What We Do</span></h2>
+<p><span style="font-weight: 400;">As one of this document&rsquo;s authors cannot seem to stop saying, accessibility needs to become &lsquo;just what we do.&rsquo; As parties responsible for the creation and maintenance of websites we understand that our teams could never create and launch a site without each member of the team understanding their role in the larger undertaking. This document provides that same service, the same roadmap for </span><em><span style="font-weight: 400;">this</span></em><span style="font-weight: 400;"> aspect of the UX. We welcome community feedback, support and perspective as we, as a larger group, work together to make accessibility the new industry standard. </span></p>
+<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>
+<h2><span style="font-weight: 400;">Appendix</span></h2>
+<h3><span style="font-weight: 400;">Glossary of Accessibility Terms</span></h3>
+<p><span style="font-weight: 400;">Like most specific areas of expertise, the world of online Accessibility has terminology that you may not have come across before. In this section we will explain a common phrases. </span></p>
+
+<h2><span style="font-weight: 400;">#</span></h2>
+
+<ul>
+<li><strong><strong>508: </strong><span style="font-weight: 400;">Section 508 of the Rehabilitation Act was enacted to eliminate barriers in information technology, to make available new opportunities for people with disabilities, and to encourage development of technologies that will help achieve these goals. Under Section 508 (29 U.S.C. &sect; 794d), Federal Agencies must give disabled employees and members of the public access to information that is comparable to the access available to others.</span></strong></li>
+</ul>
+
+<h2><span style="font-weight: 400;">A</span></h2>
+
+<ul>
+<li><strong><strong>A11Y: </strong><span style="font-weight: 400;">Accessibility (a11y) is a measure of a computer system's accessibility is to all people, including those with disabilities or impairments. It concerns both software and hardware and how they are configured in order to enable a disabled or impaired person to use that computer system successfully.</span></strong></li>
+
+<li><strong><strong>Accelerator keys / Keyboard shortcuts: </strong><span style="font-weight: 400;">Usually combinations of characters that allow users to make software commands instead of interacting with menu options or different levels of a user interface, also known as keyboard shortcuts.</span></strong></li>
+
+<li><strong><strong>Accessibility: </strong><span style="font-weight: 400;">The measure of a web page's usability by persons with one or more disabilities.</span></strong></li>
+
+<li><strong>Alternative Text: </strong><span style="font-weight: 400;">Short text used described images---usually 125 characters or less.</span></li>
+
+<li><strong><strong>Assistive technologies: </strong><span style="font-weight: 400;">Technologies (software or hardware) that increase, maintain, or improve the functional capabilities of individuals with disabilities when interacting with computers or computer-based systems.</span></strong></li>
+
+<li><strong><strong>Audio browsers: </strong><span style="font-weight: 400;">Web browsers that provides a text-to-speech capability for the blind and visually impaired.</span></strong></li>
+
+<li><strong><strong>Braille terminal: </strong><span style="font-weight: 400;">Machines that convert text on a screen to braille by raising bumps through holes on a flat surface.</span></strong></li>
+
+<li><strong><strong>Captioning:</strong><span style="font-weight: 400;">The art of adding captions to a television program or movie.</span></strong></li>
+trong><strong>Captions: </strong><span style="font-weight: 400;">A textual representation of sounds--usually associated with television programming or movies; captions are meant to display in real time and to capture speech sounds and sounds beyond speech in some cases.</span></strong></li>
+
+<li><strong><strong>Clickability cues: </strong><span style="font-weight: 400;">A visual indication that a given word or item on a Web page is clickable. Cues that can be used to indicate the clickability of an item include color, underlining, bullets, and arrows.</span></strong></li>
+</ul>
+<h2><span style="font-weight: 400;">D</span></h2>
+<ul>
+<li><strong><strong>Disability: </strong><span style="font-weight: 400;">A limitation in an ability. Types of disabilities include but not limited too: </span></strong></li>
+
+<li style="font-weight: 400;"><span style="font-weight: 400;">Auditory, Cognitive Disorders,Seizure Disorders, Visual Impairments, and </span><span style="font-weight: 400;">Motor Disabilities.</span></li>
+</ul>
+<h2><span style="font-weight: 400;">E</span></h2>
+<ul>
+<li><strong><strong>Early adopters: </strong><span style="font-weight: 400;">A user who has a tendency to embrace new technology before the majority.</span></strong></li>
+
+<li><strong><strong>Graceful Degradation: </strong><span style="font-weight: 400;">When a site utilizes new technology, if disabled, the content maintains effectiveness for the users.</span></strong></li>
+</ul>
+<h2><span style="font-weight: 400;">H</span></h2>
+<ul>
+<li style="font-weight: 400;"><strong>H-Tags:</strong><span style="font-weight: 400;"> The &lt;h1&gt; to &lt;h6&gt; tags are used to define HTML headings. &lt;h1&gt; defines the most important heading. &lt;h6&gt; defines the least important heading. There should be only one &lt;h1&gt; tag (the page title) and they should be used in a hierarchy. </span></li>
+<li><strong><strong>Heat maps: </strong><span style="font-weight: 400;">Color-based representations of areas of interest/focus points; generally associated with eye-tracking software.</span></strong></li>
+</ul>
+
+<h2><span style="font-weight: 400;">I</span></h2>
+
+<ul>
+<li><strong><strong>Internationalization: </strong><span style="font-weight: 400;">A system whose primary design has been developed to work in multiple languages and in the cultural contexts of different locales.</span></strong></li>
+</ul>
+
+<h2><span style="font-weight: 400;">J</span></h2>
+
+<ul>
+<li><strong><strong>JAWS: </strong><span style="font-weight: 400;">("Job Access With Speech") is a computer screen reader program for Microsoft Windows that allows blind and visually impaired users to read the screen either with a text-to-speech output or by a refreshable Braille display.</span></strong></li>
+</ul>
+
+<h2><span style="font-weight: 400;">K</span></h2>
+<h2><span style="font-weight: 400;">L</span></h2>
+
+<ul>
+<li><strong><strong>Late adopters: </strong><span style="font-weight: 400;">Individuals who are hesitant to adopt new technology.</span></strong></li>
+<li><strong><strong>Localization: </strong><span style="font-weight: 400;">Customizing or personalizing a national or international product for a local market.</span></strong></li>
+</ul>
+<li><strong><strong>Long Descriptions: </strong><span style="font-weight: 400;">Descriptions that are written for complex figures and tagged via the long desc attribute; though not currently supported by most Web browsers, the long desc attribute is a planned feature in the next iteration of Firefox.</span></strong></li>
+
+<li><strong><strong>Luminance Contrast Ratio: </strong><span style="font-weight: 400;">A measure of the difference between foreground and background; specific minimal values are recommended via WCAG 2.0.</span></strong></li>
+</ul>
+
+<h2><span style="font-weight: 400;">M, N, O</span></h2>
+<h2><span style="font-weight: 400;">P</span></h2>
+
+<ul>
+<li><strong><strong>Programmatic Focus: </strong><span style="font-weight: 400;">Where the computer's focus is on a Web page.</span></strong></li>
+</ul>
+<h2><span style="font-weight: 400;">Q, R</span></h2>
+<h2><span style="font-weight: 400;">S</span></h2>
+
+<ul>
+<li><strong><strong>Screen reader: </strong><span style="font-weight: 400;">A software program used to allow reading of content and navigation of the screen using speech or Braille output. Used primarily by people who have difficulty seeing. JAWS and NVDA are examples.</span></strong></li>
+<li><strong><strong>Section 508 [see also 508]: </strong><span style="font-weight: 400;">Section 508 of the Rehabilitation Act was enacted to eliminate barriers in information technology, to make available new opportunities for people with disabilities, and to encourage development of technologies that will help achieve these goals. The law applies to all Federal agencies when they develop, procure, maintain, or use electronic and information technology. To learn more go to </span><a href="http://508.gov"><span style="font-weight: 400;">508.gov</span></a><span style="font-weight: 400;">.</span></strong></li>
+</ul>
+<h2><span style="font-weight: 400;">T</span></h2>
+<ul>
+<li><strong><strong>Transcript: </strong><span style="font-weight: 400;">A text only version of what's said in a movie or television program; they are not real time and they generally are limited to speech only; they are not a recommended substitute for captions.</span></strong></li>
+</ul>
+<h2><span style="font-weight: 400;">U</span></h2>
+<h2><span style="font-weight: 400;">V</span></h2>
+<ul>
+<li><strong>Visual Focus: </strong><span style="font-weight: 400;">Where the user's focus is on a Web page; generally represented by a dashed box that appears around items on the page and associated with tabbing.</span></li>
+</ul>
+<h2><span style="font-weight: 400;">W</span></h2>
+
+<ul>
+<li><strong><strong>WCAG 2.0: </strong><span style="font-weight: 400;">The Web Content Accessibility Guidelines (WCAG) 2.0 is focused on providing an international technical standard for web content. It has 12 guidelines that are organized under four principles: perceivable, operable, understandable, and robust. The guidelines each have a testable success criteria, which are at three levels: A, AA, and AAA.</span></strong></li>
+</ul>
+<h2><span style="font-weight: 400;">X, Y, Z</span></h2>
+<h3><span style="font-weight: 400;">Caveats </span></h3>
+<p><span style="font-weight: 400;">The purpose of this document is to create a better understanding between different parties responsible for the accessible nature of your website. This is not intended to be a legal document; it has not been written by legal experts of any governing entity, but by Drupal community members who are passionate about accessibility, user experience (including the content managers user experience), and website excellence as a whole.</span></p>
+
+<h3><span style="font-weight: 400;">Sources</span></h3>
+<p><span style="font-weight: 400;">In many cases our check list criteria has been taken directly from these sources. We've done this to maintain the clarity that they had already produced and to help promote these industry standards.</span></p>
+
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">18F Content Guide</span></li>
+</ul>
+<p><a href="https://content-guide.18f.gov/"><span style="font-weight: 400;">https://content-guide.18f.gov/</span></a></p>
+<p>&nbsp;</p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Alternative Text</span></li>
+</ul>
+<p><a href="http://webaim.org/techniques/alttext/"><span style="font-weight: 400;">http://webaim.org/techniques/alttext/</span></a></p>
+<p>&nbsp;</p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">A11y Checklist</span></li>
+</ul>
+<p><a href="http://a11yproject.com/checklist.html"><span style="font-weight: 400;">http://a11yproject.com/checklist.html</span></a></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">Captions, Transcripts, and Audio Descriptions</span></p>
+<p><a href="http://webaim.org/techniques/captions/"><span style="font-weight: 400;">http://webaim.org/techniques/captions/</span></a></p>
+<p>&nbsp;</p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">WebAIM's WCAG 2.0 Checklist for HTML documents </span><a href="http://webaim.org/standards/wcag/checklist"><span style="font-weight: 400;">http://webaim.org/standards/wcag/checklist</span></a></li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">WebAIM&rsquo;s Web accessibility for Designers</span></li>
+</ul>
+<p><a href="http://webaim.org/resources/designers/"><span style="font-weight: 400;">http://webaim.org/resources/designers/</span></a></p>
+<p>&nbsp;</p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">How to meet WCAG 2.0</span></li>
+</ul>
+<p><a href="https://www.w3.org/WAI/WCAG20/quickref/"><span style="font-weight: 400;">https://www.w3.org/WAI/WCAG20/quickref/</span></a></p>
+<p>&nbsp;</p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Wuhcag- Wcag Checklist</span></li>
+</ul>
+<p><a href="https://www.wuhcag.com/wcag-checklist/"><span style="font-weight: 400;">https://www.wuhcag.com/wcag-checklist/</span></a></p>
+<p>&nbsp;</p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">WebAim</span></li>
+</ul>
+<p><a href="http://webaim.org/"><span style="font-weight: 400;">http://webaim.org/</span></a></p>
+<p>&nbsp;</p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">WebAIM's WCAG 2.0 Checklist</span></li>
+</ul>
+<p><a href="http://webaim.org/standards/wcag/checklist"><span style="font-weight: 400;">http://webaim.org/standards/wcag/checklist</span></a></p>
+<p>&nbsp;</p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">WCAG 2.0 At a Glance</span></li>
+</ul>
+<p><a href="https://www.w3.org/WAI/WCAG20/glance/WCAG2-at-a-Glance.pdf"><span style="font-weight: 400;">https://www.w3.org/WAI/WCAG20/glance/WCAG2-at-a-Glance.pdf</span></a></p>
+<p>&nbsp;</p>
+<h3><span style="font-weight: 400;"> Resources</span></h3>
+<h4><span style="font-weight: 400;">Testing</span></h4>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">WAVE</span><span style="font-weight: 400;"><br /></span><a href="http://wave.webaim.org"><span style="font-weight: 400;">http://wave.webaim.org</span></a></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;"> VoiceOver Commands for Web Page Testing</span><span style="font-weight: 400;"><br /></span><a href="http://accessibility.psu.edu/screenreaders/voiceover"><span style="font-weight: 400;">http://accessibility.psu.edu/screenreaders/voiceover</span></a></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Color Blindness Simulator</span><span style="font-weight: 400;"><br /></span><a href="http://www.color-blindness.com/coblis-color-blindness-simulator"><span style="font-weight: 400;">http://www.color-blindness.com/coblis-color-blindness-simulator</span></a></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Color Safe</span><span style="font-weight: 400;"><br /></span><a href="http://colorsafe.co"><span style="font-weight: 400;">http://colorsafe.co</span></a></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Color Vision imcal.com</span></li>
+</ul>
+<p><a href="http://www.iamcal.com/toys/colors/index.php"><span style="font-weight: 400;">http://www.iamcal.com/toys/colors/index.php</span></a></p>
+<p><span style="font-weight: 400;">Vischeck</span></p>
+<ul>
+<li style="font-weight: 400;"><a href="http://www.vischeck.com/"><span style="font-weight: 400;">http://www.vischeck.com/</span></a></li>
+</ul>
+<h4><span style="font-weight: 400;">Statistics</span></h4>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Americans with Disabilities: 2010</span><span style="font-weight: 400;"><br /></span><a href="https://www.census.gov/people/disability/publications/sipp2010.html"><span style="font-weight: 400;">https://www.census.gov/people/disability/publications/sipp2010.html</span></a></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">CDC: National Center for Health Statistics</span><span style="font-weight: 400;"><br /></span><a href="https://www.cdc.gov/nchs/fastats/disability.htm"><span style="font-weight: 400;">https://www.cdc.gov/nchs/fastats/disability.htm</span></a></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">CDC: &nbsp;Prevalence of Disability and Disability Type Among Adults </span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">&mdash; United States, 2013</span><span style="font-weight: 400;"><br /></span><a href="https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6429a2.htm"><span style="font-weight: 400;">https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6429a2.htm</span></a></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Cornell University: Disability Statistics</span><span style="font-weight: 400;"><br /></span><a href="http://www.disabilitystatistics.org/reports/acs.cfm?statistic=1"><span style="font-weight: 400;">http://www.disabilitystatistics.org/reports/acs.cfm?statistic=1</span></a></li>
+</ul>
+<h4><span style="font-weight: 400;">Legal Examples</span></h4>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">University of Minnesota: Higher Ed Accessibility Lawsuits, Complaints, and Settlements</span><span style="font-weight: 400;"><br /></span><a href="http://www.d.umn.edu/~lcarlson/atteam/lawsuits.html"><span style="font-weight: 400;">http://www.d.umn.edu/~lcarlson/atteam/lawsuits.html</span></a></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">WSJ: Companies Face Lawsuits Over Website Accessibility For Blind Users</span><span style="font-weight: 400;"><br /></span><a href="https://www.wsj.com/articles/companies-face-lawsuits-over-website-accessibility-for-blind-users-1478005201"><span style="font-weight: 400;">https://www.wsj.com/articles/companies-face-lawsuits-over-website-accessibility-for-blind-users-1478005201</span></a></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Forbes: Judges Handling ADA Lawsuits Over Websites Not Waiting On DOJ Regulations</span><span style="font-weight: 400;"><br /></span><a href="https://www.forbes.com/sites/legalnewsline/2016/03/29/judges-handling-ada-lawsuits-over-websites-not-waiting-on-doj-regulations/#7f61740d5e0f"><span style="font-weight: 400;">https://www.forbes.com/sites/legalnewsline/2016/03/29/judges-handling-ada-lawsuits-over-websites-not-waiting-on-doj-regulations/#7f61740d5e0f</span></a></li>
+</ul>
+<h4><span style="font-weight: 400;">Code Libraries </span></h4>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;"> A11Y Style Guide</span><span style="font-weight: 400;"><br /></span><a href="http://a11y-style-guide.com/style-guide"><span style="font-weight: 400;">http://a11y-style-guide.com/style-guide</span></a></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">ARIA Examples</span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">WAI-ARIA, the Accessible Rich Internet Applications Suite, defines a way to make Web content and Web applications more accessible to people with disabilities. ... Blog post Accessible Rich Internet Applications (WAI-ARIA) 1.0 is a W3C Recommendation.</span><span style="font-weight: 400;"><br /></span><a href="http://heydonworks.com/practical_aria_examples"><span style="font-weight: 400;">http://heydonworks.com/practical_aria_examples</span></a></li>
+</ul>
+<h4><span style="font-weight: 400;">Drupal Modules</span></h4>
+<ul>
+<li style="font-weight: 400;"><a href="https://www.drupal.org/project/ckeditor_accessibility_auditor"><span style="font-weight: 400;">CKEditor Accessibility Auditor</span></a></li>
+</ul>
+<h3><span style="font-weight: 400;">Credits</span></h3>
+<p><span style="font-weight: 400;">If you contribute or even take this document to adapt it to your organization's needs please add your name. Let us know you&rsquo;re working towards making this part of the communities outlook.</span></p>
+<p>&nbsp;</p>
+<p><strong>Authors</strong></p>
+<p><span style="font-weight: 400;">Donna Bungard, Digital Strategist @ Mediacurrent</span></p>
+<p><span style="font-weight: 400;">Jason Cortes, Full Stack Application Developer @ NYS Office of Information Technology Services </span></p>
+<p><span style="font-weight: 400;">Kristen Albright, Information Technology Specialist 3 @ NYS Office of Information Technology Services </span></p>
+<p>&nbsp;</p>
+<p><strong>Adaptors</strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</section>
+</body>
